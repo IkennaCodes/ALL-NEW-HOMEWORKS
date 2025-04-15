@@ -1,7 +1,7 @@
 #Importing Turtle
 import turtle as t
 import random
-t.width(3)
+t.width(4)
 t.speed(0)
 
 #Defining functions
@@ -219,5 +219,28 @@ for x in range (13):
     t.seth(0)
 
 
+#Final Buildings
+go(-330,-315)
+rect(400,60,"#000000","#000000")
+
+go(170,-315)
+rect(400,60,"#000000","#000000")
+
+go(-285,-290)
+window("red","red")
+
+t.forward(5)
+window("red","red")
+
+t.forward(5)
+window("red","red")
+
+t.forward(5)
+window("red","red")
+
+go(200,-290)
+window("red","red")
+t.forward(5)
+window("red","red")
 
 t.mainloop()
