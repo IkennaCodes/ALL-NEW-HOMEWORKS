@@ -1,7 +1,7 @@
 #Importing Turtle
 import turtle as t
 import random
-t.width(4)
+t.width(1)
 t.speed(0)
 
 #Defining functions
